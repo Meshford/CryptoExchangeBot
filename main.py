@@ -23,7 +23,7 @@ payments = {
     'Наличными в банкомате': ['Cash-in Альфабанк', 'Cash-in Тинькофф']
 }
 
-API_TOKEN = '1814604938:AAEmrXm0ZnT2v8OWEHlXGf8Riqt9GDb6Exk'
+API_TOKEN = ''
 logging.basicConfig(level=logging.INFO)
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
